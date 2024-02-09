@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Tablet*/
+    *{
+        background-color: black;
+    }
+
+    
+}
+
+@media screen and(min-width: 992px) { /*PC*/
+    
+}

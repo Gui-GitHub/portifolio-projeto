@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+/*celulares*/
 
 *{
     padding: 0px;
@@ -28,7 +31,6 @@ a{
 
 header{
     width: 95vw;
-    height: 150px;
     display: block;
     margin: auto;
 }
@@ -48,8 +50,16 @@ header>nav{
     justify-content: space-between;
 }
 
+header>p{
+    text-align: center;
+    color: var(--cor6);
+    padding: 10px;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
+}
+
 main{
-    width: 350px;
+    width: 75vw;
     display: block;
     margin: auto;
     margin-bottom: 30px;
@@ -94,10 +104,11 @@ section>h2{
 }
 
 section#sobremim>p{
-    text-align: justify;
+    text-align: center;
     color: white;
+    margin: auto;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 0px;
     font-size: 1.1em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
 }
@@ -192,6 +203,7 @@ div.end h3{
 }
 
 div.end p{
+    text-align: justify;
     padding: 10px;
     color: var(--cor6);
 }
@@ -246,4 +258,5 @@ div> img.contato{
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.526);
 }
