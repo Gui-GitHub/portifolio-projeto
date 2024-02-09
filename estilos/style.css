@@ -85,6 +85,7 @@ section{
     margin: auto;
 }
 
+
 section#imagem > img{
     display: flex;
     width: 300px;
@@ -121,6 +122,21 @@ section#portifolio p{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
 }
 
+.acesse{
+    margin: 20px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
+}
+
+p.acesse a:hover{
+    color: white;
+}
+
 section#portifolio img{
     display: flex;
     width: 300px;
@@ -129,6 +145,12 @@ section#portifolio img{
     box-shadow: 5px 3px 10px var(--cor2);
     box-sizing: border-box;
     border-radius: 10px;
+    border: 2px solid black;
+}
+
+section#portifolio img.cs{
+    width: 200px;
+    height: 150px;
 }
 
 div.opcao{
@@ -171,14 +193,10 @@ div.repertorio:hover{
     cursor: pointer;
 }
 
-section#portifolio p#acesse{
+section#portifolio p.acesse{
     margin: 20px;
     font-size: 1em;
     font-style: italic;
-}
-
-p#acesse a:hover{
-    color: white;
 }
 
 div.end{
@@ -206,12 +224,12 @@ div.end p{
     text-align: justify;
     padding: 10px;
     color: var(--cor6);
+    line-height: 1.5em;
 }
 
 footer{
     display: block;
     width: 90%;
-    height: 300px;
     margin: auto;
     border: 4px solid black;
     border-bottom-left-radius: 0px;
@@ -260,3 +278,15 @@ div> img.contato{
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.526);
 }
+
+footer >p#r{
+    display: block;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
+    background-color: rgba(128, 128, 128, 0.121);
+}
+
+
