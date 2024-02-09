@@ -146,12 +146,12 @@
     }
 
     section#portifolio img{
-        width: 700px;
+        width: 480px;
     }
 
     section#portifolio img.cs{
-        width: 400px;
-        height: 300px;
+        width: 380px;
+        height: 250px;
     }
 
     section#portifolio p.pj{
