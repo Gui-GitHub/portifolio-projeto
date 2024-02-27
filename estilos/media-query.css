@@ -83,7 +83,16 @@
     footer >p#r{
         font-size: 1em;
     }
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 992px) { /*PC*/
@@ -91,6 +100,16 @@
         background-image: linear-gradient(to right, var(--cor1),#0a2c5c);
         transition: width .7s, height .7s;
         transition-timing-function: ease;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex: 1 1 45%; 
+        margin-right: 20px; 
     }
 
     header{

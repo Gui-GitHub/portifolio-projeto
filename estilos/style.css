@@ -8,6 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 :root{
     --cor1: #021024;
     --cor2: #052659;
