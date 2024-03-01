@@ -155,11 +155,6 @@ section#portifolio img{
     border: 2px solid black;
 }
 
-section#portifolio img.cs{
-    width: 200px;
-    height: 150px;
-}
-
 div.opcao{
     display: flex;
     margin: auto;
