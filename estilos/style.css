@@ -10,8 +10,17 @@
 
 
 .project img {
-    max-width: 100%;
+    width: 100%; 
+    max-width: 300px;
     height: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 3px 10px var(--cor2);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.projects {
+    text-align: center;
 }
 
 
@@ -129,26 +138,9 @@ section#portifolio p{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
 }
 
-.project {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .containerpg {
-    width: 100%; /* Largura total */
+    position: relative;
 }
-
-.descricao {
-    padding: 10px;
-    background: linear-gradient(135deg, #007bff, #00bfff); /* Gradiente de azul */
-    border: 1px solid #007bff; /* Cor da borda */
-    border-radius: 5px;
-    margin-top: 10px;
-    color: #fff; /* Cor do texto */
-    width: 100%; /* Largura total */
-}
-
 
 .acesse{
     margin: 20px;
@@ -174,6 +166,62 @@ section#portifolio img{
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid black;
+}
+
+.project {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
+    color: white;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.overlay > p {
+    text-align: center;
+    margin: 0;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+    z-index: 1;
+}
+
+.dourado{
+    background-image: linear-gradient(to top,rgba(93, 103, 4, 0.5) ,#ffffff1f);
+}
+
+.branco{
+    background-image: linear-gradient(to top,rgba(255, 255, 255, 0.593) ,#0000003d);
+}
+
+.verde{
+    background-image: linear-gradient(to top,rgba(13, 218, 91, 0.593) ,#0000003d);
+}
+
+.rosa{
+    background-image: linear-gradient(to top,rgba(213, 8, 240, 0.593) ,#0000003d);
+}
+
+.java{
+    background-image: linear-gradient(to top,rgba(42, 104, 204, 0.593) ,#0000003d);
 }
 
 div.opcao{
