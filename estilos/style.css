@@ -229,12 +229,6 @@ div.opcao{
     margin: auto;
     justify-content: space-between;
     width: 150px;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-}
-
-.project:hover .opcao {
-    opacity: 0.1;
 }
 
 div.site{
